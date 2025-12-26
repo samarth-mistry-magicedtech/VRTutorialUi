@@ -1,0 +1,35 @@
+{
+  "slides": [
+    {
+      "id": "intro",
+      "header": "Welcome to the MagicedTech VR experience.",
+      "body": "In this short tutorial we will walk you through the basic controls, how to interact with objects around you, and what the UI panels mean. Take a moment to look around and get comfortable. When you are ready, press Next to continue.",
+      "footer": "Look at the panel and press Next to continue.",
+      "buttons": [
+        { "label": "Start Tutorial", "action": "next" }
+      ],
+      "canContinue": true
+    },
+    {
+      "id": "controls",
+      "header": "Controls",
+      "body": "Use your right-hand controller to point at buttons and UI elements.\n\nSqueeze the trigger to select, and use the thumbstick to turn or move if your project enables locomotion. When you see an object highlighted, it means it can be interacted with. Follow the on-screen hints to perform the required action.",
+      "footer": "Try pointing at this panel with your controller, then press Next.",
+      "buttons": [
+        { "label": "Next Step", "action": "next" }
+      ],
+      "canContinue": false
+    },
+    {
+      "id": "finished",
+      "header": "Tutorial Complete",
+      "body": "You have reached the end of this tutorial.\n\nYou can go through the instructions again if you want to refresh the controls, or exit and continue to the main experience. Your progress so far will not be lost.",
+      "footer": "Choose Retry to replay the tutorial, or Exit to continue.",
+      "buttons": [
+        { "label": "Retry Tutorial", "action": "retry" },
+        { "label": "Exit Tutorial", "action": "exit" }
+      ],
+      "canContinue": true
+    }
+  ]
+}

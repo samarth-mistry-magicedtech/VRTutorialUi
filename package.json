@@ -1,0 +1,17 @@
+{
+  "name": "com.magicedtech.tutorialui",
+  "displayName": "MagicedTech VR Tutorial UI",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "description": "Reusable VR tutorial UI prefab and controller driven by JSON slide data, built for URP + XR Interaction Toolkit.",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.xr.interaction.toolkit": "2.5.4",
+    "com.unity.render-pipelines.universal": "12.1.0",
+    "com.unity.xr.management": "4.2.1"
+  },
+  "author": {
+    "name": "Samarth Mistry",
+    "email": "samarth.dilpesh@magicedtech.com"
+  }
+}
