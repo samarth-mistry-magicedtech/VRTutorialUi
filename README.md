@@ -18,15 +18,27 @@ It provides:
 
 ---
 
-## 1. Installation (via Git URL)
+## 1. Installation (via Git URL + version tags)
 
 You do **not** need to clone the repo manually. Install it directly via Unity Package Manager.
 
-**Git repository URL** (example):
+### 1.1 Git repository URL (latest `main`)
+
+If you want to always track the latest `main` branch:
 
 ```text
 https://github.com/samarth-mistry-magicedtech/VRTutorialUi.git
 ```
+
+### 1.2 Using a specific tagged version (recommended)
+
+After you create Git tags (for example `v1.0.0`), you can install a specific version by appending the tag after a `#` in the URL:
+
+```text
+https://github.com/samarth-mistry-magicedtech/VRTutorialUi.git#v1.0.0
+```
+
+Replace `v1.0.0` with the release tag you want to use.
 
 ### Steps
 
@@ -36,10 +48,10 @@ https://github.com/samarth-mistry-magicedtech/VRTutorialUi.git
 3. In the Package Manager window:
    - Click the **+** button (top-left).
    - Choose **Add package from git URL…**.
-4. Paste the repo URL:
+4. Paste one of the URLs above, for example:
 
    ```text
-   https://github.com/samarth-mistry-magicedtech/VRTutorialUi.git
+   https://github.com/samarth-mistry-magicedtech/VRTutorialUi.git#v1.0.0
    ```
 
 5. Click **Add**.
